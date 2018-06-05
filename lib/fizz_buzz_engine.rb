@@ -6,8 +6,12 @@ class FizzBuzzEngine
     1.upto 100 do |number|
       if number % 3 == 0
         fizz = 'Fizz'
-        puts 'Fizz'
+        puts fizz
         fb_arr.push(fizz)
+      elsif number % 5 == 0
+        buzz = 'Buzz'
+        puts buzz
+        fb_arr.push(buzz)
       else
         puts number
         fb_arr.push(number)
