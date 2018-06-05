@@ -1,5 +1,6 @@
 class FizzBuzzEngine
-  # Prints numbers 1 to 100
+  # Prints numbers 1 to 100. Multiples of 3 return 'Fizz', multiples of 5 return
+  # 'Buzz' and multiples of 3 and 5 return 'FizzBuzz'
   def hundred_count
     fb_arr = []
 
