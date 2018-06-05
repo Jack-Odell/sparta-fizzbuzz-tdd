@@ -1,5 +1,4 @@
 require 'spec_helper'
-
   describe FizzBuzzEngine do
     before(:each) do
       @fizz_buzz = FizzBuzzEngine.new
@@ -14,6 +13,10 @@ require 'spec_helper'
     end
 
     it 'Should include Buzz' do
-      expect(@fizz_buzz.hundred_count).to include('Fizz')
+      expect(@fizz_buzz.hundred_count).to include('Buzz')
+    end
+
+    it 'Should include FizzBuzz' do
+      expect(@fizz_buzz.hundred_count).to include('FizzBuzz')
     end
 end

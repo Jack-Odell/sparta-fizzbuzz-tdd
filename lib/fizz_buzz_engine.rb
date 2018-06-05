@@ -4,7 +4,11 @@ class FizzBuzzEngine
     fb_arr = []
 
     1.upto 100 do |number|
-      if number % 3 == 0
+      if number % 15 == 0
+        fizz_buzz = 'FizzBuzz'
+        puts fizz_buzz
+        fb_arr.push(fizz_buzz)
+      elsif number % 3 == 0
         fizz = 'Fizz'
         puts fizz
         fb_arr.push(fizz)
@@ -19,7 +23,6 @@ class FizzBuzzEngine
     end
     fb_arr
   end
-
 end
 
 fizz_buzz = FizzBuzzEngine.new
