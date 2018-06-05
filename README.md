@@ -12,6 +12,6 @@ Task
 
 # How to Run
 
-To run all programs
+To run all programs you must be located in the sparta-fizzbuzz-tdd folder in the terminal
 
-To run the FizzBuzz program input into the terminal `ruby lib/fizz_buzz_engine.rb`
+To run the FizzBuzz programand check to see if the tests have passed, input into the terminal `rspec spec/fizz_buzz_engine_spec.rb`
