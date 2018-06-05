@@ -5,7 +5,11 @@ require 'spec_helper'
       @fizz_buzz = FizzBuzzEngine.new
     end
 
-    it 'Should be between oneand one-hundred' do
-      expect(@fizz_buzz.hundred_count).to be_between(1,100)
+    it 'Should include an integer' do
+      expect(@fizz_buzz.hundred_count).to include(a_kind_of(Integer))
+    end
+
+    it 'Should include Fizz' do
+      expect(@fizz_buzz.hundred_count).to include('Fizz')
     end
 end
